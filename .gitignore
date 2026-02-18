@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# macOS
+.DS_Store
+
+# SQLite / local data stores
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite*
+
+# Generated data outputs
+data/raw/**
+!data/raw/.gitkeep
+data/processed/*.csv
+!data/processed/.gitkeep
+
+# Generated reports
+reports/*
+!reports/.gitkeep
+
+# Streamlit local secrets
+.streamlit/secrets.toml
